@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761049316592",
+    "project_id": "voyposttest",
+    "storage_bucket": "voyposttest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761049316592:android:cafc8175df7a454ae49635",
+        "android_client_info": {
+          "package_name": "com.testproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761049316592-ietu2il9hujgqe07mg3viht9et2ht3hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmf_IWOt--M8hNGy7CoW6KR_acagedEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761049316592-ietu2il9hujgqe07mg3viht9et2ht3hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
