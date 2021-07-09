@@ -10,7 +10,7 @@ import type {Node} from 'react';
 import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import auth from '@react-native-firebase/auth';
-import MainStack from './src/components/MainStack';
+import MainStack from './src/navigation/MainStack';
 
 const App: () => Node = () => {
   // Set an initializing state whilst Firebase connects

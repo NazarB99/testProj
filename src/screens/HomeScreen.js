@@ -9,6 +9,7 @@ import {DEVICE_HEIGHT} from '../commons/Constants';
 const HomeScreen = ({navigation, route}) => {
   const [username, setUsername] = useState('');
   useEffect(() => {
+    console.log('PARAMS', route.params);
     firestore()
       .collection('Users')
       .where('userId', '==', route.params?.userId)

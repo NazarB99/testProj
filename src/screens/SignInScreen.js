@@ -24,7 +24,7 @@ const SignInScreen = ({navigation}) => {
             index: 0,
             routes: [
               {
-                name: 'Home',
+                name: 'TabNav',
                 params: {
                   userId: data.user.uid,
                 },
